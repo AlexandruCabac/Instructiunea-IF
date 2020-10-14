@@ -1,0 +1,11 @@
+a=int(input())
+b=int(input())
+if(a%2!=0 and b%2!=0):
+    print("NU sunt nr. pare")
+elif(a%2!=0 and b%2==0):
+    print(b)
+elif(a%2==0 and b%2!=0):
+    print(a)
+else:
+    x=max(a,b)
+    print(x)
