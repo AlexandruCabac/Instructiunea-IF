@@ -1,5 +1,7 @@
 x=int(input())
-if(x%4==0):
+if(x<1 or x>100):
+    print("Error")
+elif(x%4==0):
     print("Tricou de culoare neagră")
 elif(x%4==1):
     print("Tricou de culoare albă")
